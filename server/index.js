@@ -2,7 +2,6 @@
 var express = require('express'),
 	app = express();
 
-console.log(__dirname + '/../app/');
 app.use(express.static(__dirname + '/../app'));
 
 var data = [
